@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<!DOCTYPE gimnasio SYSTEM 'EjercicioDTD.dtd'>
+
+<gimnasio>
+    <socios>
+        <socio id="p1">
+            <dni>1234f</dni>
+            <nombre>Pepe</nombre>
+            <telefono>1234</telefono>
+            <email>aaaaa@gmail.com</email>
+            <familiares relacion="hijo" fechanacimiento="17/08/1998">
+                <nombre>jose</nombre>
+                <dni>19191991f</dni>
+            </familiares>
+        </socio>
+        <socio id="p2" socioreferido="p1">
+            <dni>1234f</dni>
+            <nombre>Pepe</nombre>
+            <telefono>1234</telefono>
+            <email>aaaaa@gmail.com</email>
+            <familiares relacion="hijo" fechanacimiento="17/08/1998">
+                <nombre>jose</nombre>
+                <dni>19191991f</dni>
+            </familiares>
+        </socio>
+    </socios>
+    <actividades>
+        <actividad duracion="23">
+            <horario>
+                <dia></dia>
+                <horainicio></horainicio>
+                <horafin></horafin>
+            </horario>
+            <pago />
+        </actividad>
+    </actividades>
+</gimnasio>

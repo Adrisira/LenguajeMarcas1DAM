@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <facturas>
+        <facura>
+            <codigo></codigo>
+            <fechaemision></fechaemision>
+            <datoscliente>
+                <dni></dni>
+                <nombre></nombre>
+                <direccion></direccion>
+                <codigopostal></codigopostal>
+                <poblacion></poblacion>
+            </datoscliente>
+            <productos>
+                <producto>
+                    <idproducto></idproducto>
+                    <cantidadPVendida></cantidadPVendida>
+                    <denominacion></denominacion>
+                    <preciounitario></preciounitario>
+                    <iva></iva>
+                </producto>
+            </productos>
+            <descuento></descuento>
+        </facura>
+    </facturas>
+
+<!--Razona la siguiente pregunta: ¿Es necesario guardar 
+el importe total por producto y el importe total de la factura?
+Si, porque una factura puede tener mas de un producto-->

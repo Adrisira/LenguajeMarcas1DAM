@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <tiempo lugar="Isla Cristina" fecha="25 de Octubre de 2011">
+        <probabilidadprecipitacion>1. Probabilidad de precipitación: 55%</probabilidadprecipitacion>
+        <estadocielo>2. Estado del cielo: Intervalos nubosos</estadocielo>
+        <direccionviento>3. Dirección del viento: Suroeste</direccionviento>
+        <velocidadviento>4. Velocidad del viento:10km/h</velocidadviento>
+        <temperaturamaxima>5. Temperatura máxima: 21ºC</temperaturamaxima>
+        <temperaturaminima>6. Temperatura mínima: 10ºC</temperaturaminima>
+        <sesaciontmaxima>7. Sensación térmica máxima: 21ºC</sesaciontmaxima>
+        <sensaciontminima>8. Sensación térmica mínima: 10ºC</sensaciontminima>
+        <humedadrmaxima>9. Humedad relativa máxima: 90%</humedadrmaxima>
+        <humedadrminima>10. Humedad relativa mínima: 50%</humedadrminima>
+        <indiceultravioleta>11. Índice Ultravioleta máximo: 3</indiceultravioleta>
+    </tiempo>

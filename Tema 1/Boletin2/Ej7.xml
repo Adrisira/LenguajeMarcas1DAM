@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CICLO SYSTEM "Ej7.dtd">
+<CICLO>
+    <MODULO>
+        <DENOMINACION>1</DENOMINACION>
+        <SIGLAS>2</SIGLAS>
+        <PROFESOR>3</PROFESOR>
+        <DESCRIPCION>4</DESCRIPCION>
+    </MODULO>
+</CICLO>

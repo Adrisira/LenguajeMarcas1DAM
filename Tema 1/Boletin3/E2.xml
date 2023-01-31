@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE supermercado SYSTEM "supermercado.dtd"> 
+
+<supermercado> 
+    <articulo id="articulo1"> 
+        <descripcion>Leche desntada</descripcion> 
+        <marca>Pascual</marca> 
+        <medida unidad="L">1</medida> 
+        <sección tipo="leche"/> 
+    </articulo> 
+    <articulo id="articulo2"> 
+        <descripcion>Leche entera</descripcion> 
+        <marca>Puleva</marca> 
+        <medida unidad="L">1,5</medida> 
+        <sección tipo="leche"/> 
+        <oferta>Lote descuento</oferta> 
+        <oferta>Dos por uno</oferta> 
+        <perecedero> 
+            <fabricacion>Enero2010</fabricacion> 
+        </perecedero> 
+    </articulo> 
+    <articulo id="articulo3"> 
+        <descripcion>Tomate</descripcion> 
+        <medida unidad="Kg">1</medida> 
+        <sección tipo="fruta"/> 
+        <perecedero> 
+            <caducidad>Febrero2010</caducidad> 
+        </perecedero> 
+    </articulo> 
+</supermercado>

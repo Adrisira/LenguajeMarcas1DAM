@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE  resultados SYSTEM "E4.dtd">
+
+<resultados>
+    <partido>
+    <equipolocal>Nottingham Presa</equipolocal>
+    <equipovisitante>Inter de Mitente</equipovisitante>
+    <goleslocal>0</goleslocal>
+    <golesvisitante>1</golesvisitante>
+    </partido>
+    <partido>
+        <equipolocal>Vodka Juniors</equipolocal>
+        <equipovisitante>Sparta da Risa</equipovisitante>
+        <goleslocal>3</goleslocal>
+        <golesvisitante>3</golesvisitante>
+    </partido>
+    <partido>
+        <equipolocal>Water de Múnich</equipolocal>
+        <equipovisitante>Esteaua es del grifo</equipovisitante>
+        <goleslocal>4</goleslocal>
+        <golesvisitante>2</golesvisitante>
+    </partido>
+</resultados>

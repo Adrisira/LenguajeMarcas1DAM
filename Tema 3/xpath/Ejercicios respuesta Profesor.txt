@@ -1,0 +1,64 @@
+Ejercicio 1:
+a) Nombre de la persona
+/persona/nombre
+b) Año de nacimiento
+/persona/fechanacimiento
+c) Lista de teléfonos
+/persona/telefono
+
+Ejercicio2:
+a) Lista de nombres de todos los contactos
+/contactos/persona/nombre
+b) Lista de años de nacimiento de los contactos nacidos después de 1970
+/contactos/persona/fechanacimiento/anio[. > 1970]
+c) Lista de nombres de los contactos nacidos entre 1950 y 1970
+/contactos/persona/fechanacimiento/anio[. > 1950 and . < 1970]
+d) Nombres de las personas que tengan exactamente 2 teléfonos
+/contactos/persona[count(telefono) = 2]/nombre
+e) Lista de teléfonos móviles (que empiecen por 6) de los contactos
+/contactos/persona/telefono[starts-with(., '6')]
+
+Ejercicio3:
+a) Promedio de edad de los contactos (toma la edad como la diferencia entre 2004 y el año de nacimiento)
+avg(/contactos/persona/fechanacimiento/(2004 - anio))
+b) Dirección postal completa del primer contacto, con el siguiente formato: #calle#, #numero#. #poblacion# (#pais#)
+/contactos/persona[1]/direccion/concat(calle,' ' ,numero, ' (', poblacion, ')')
+
+Ejercicio4:
+
+Ejercicio5:
+
+Ejercicio6:
+a)Nombre de los módulos del ciclo "Sistemas Microinformáticos y Redes". Nota: en la expresión final no deben aparecer las siglas SMR:
+Aplicaciones web
+◦siglas del ciclo "Sistemas Microinformáticos y Redes":
+◦módulos del ciclo SMR:
+◦sustituyendo la primera en la segunda:
+/ies/modulos/modulo[ciclo=/ies/ciclos/ciclo[nombre="Sistemas Microinformáticos y Redes"]/@id]/nombre
+b)Nombre de los ciclos que incluyen el módulo "Lenguajes de marcas y sistemas de gestión de información":
+Administración de Sistemas Informáticos en Red
+Desarrollo de Aplicaciones Web
+◦siglas de los ciclos que incluyen el módulo "Lenguajes de marcas y sistemas de gestión de información":
+◦nombre de los ciclos ASIR o DAW:
+◦sustituyendo la primera en la segunda:
+/ies/ciclos/ciclo[@id=/ies/modulos/modulo[nombre="Lenguajes de marcas y sistemas de gestión de información"]/ciclo]/nombre
+c)Nombre de los módulos de ciclos de Grado Superior:
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Implantación de aplicaciones web
+◦siglas de los ciclos de grado superior:
+◦módulos de los ciclos ASIR o DAW:
+◦sustituyendo la primera en la segunda:
+
+d)Nombre de los módulos de ciclos cuyo título se aprobó en 2008:
+Aplicaciones web
+◦siglas de los ciclos cuyo título se aprobó en 2008:
+◦módulos del ciclo SMR:
+◦sustituyendo la primera en la segunda:
+
+e)Grado de los ciclos con módulos de primer curso:
+Superior
+Superior
+◦siglas de los ciclos con módulos de primer curso:
+◦Grados de los ciclos ASIR o DAW:
+◦sustituyendo la primera en la segunda: 

@@ -1,0 +1,1 @@
+/contactos/persona[1]/direccion/concat(calle,' ' ,numero, ' (', poblacion, ')')

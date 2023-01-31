@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.miempresa.org/pedidos" 
+xmlns="http://www.miempresa.org/pedidos" elementFormDefault="qualified">
+    <xs:element name="Pedido" type="TipoPedido" />
+    <xs:complexType name="TipoPedido">
+        <xs:sequence>
+            <xs:element name="Destino" type="TipoDireccion" />
+            <xs:element name="Ordenante" type="TipoDireccion" />
+            <xs:element name="Observaciones" type="xs:string" minOccurs="0" />
+            <xs:element name="Contenido" type="TipoContenido" />
+        </xs:sequence>
+        <xs:attribute name="fecha" type="xs:date" use="required" />
+    </xs:complexType>
+    <xs:complexType name="TipoDireccion">
+        <xs:sequence>
+            <xs:element name="Nombre" type="xs:string" />
+            <xs:element name="Direccion" type="xs:string" />
+            <xs:element name="Ciudad" type="xs:string" />
+            <xs:element name="CodPostal" type="TipoCodPostal" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="TipoCodPostal">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minInclusive value="1000" />
+            <xs:maxInclusive value="60000" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="TipoContenido">
+        <xs:sequence>
+            <xs:element name="Producto" type="TipoProducto" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="TipoProducto">
+        <xs:sequence>
+            <xs:element name="Nombre" type="xs:string" />
+            <xs:element name="Cantidad" type="TipoCantidad" />
+            <xs:element name="Precio" type="xs:decimal" />
+            <xs:element name="Observaciones" type="xs:string" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute name="codigo" type="TipoCodigo" use="required" />
+    </xs:complexType>
+    <xs:simpleType name="TipoCantidad">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:maxExclusive value="100" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="TipoCodigo">
+        <xs:restriction base="xs:string"> 
+            <xs:pattern value="\d{3}-[A-Z]{2}" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

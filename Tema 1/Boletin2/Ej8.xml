@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NEWSPAPER SYSTEM "Ej8.dtd">
+
+<NEWSPAPER>
+    <ARTICLE AUTHOR = "1" EDITOR = "2" DATE = "3" EDITION = "4">
+        <HEADLINE>1</HEADLINE>
+        <BYLINE>2</BYLINE>
+        <LEAD>3</LEAD>
+        <BODY>4</BODY>
+        <NOTES>5</NOTES>
+    </ARTICLE>
+</NEWSPAPER>

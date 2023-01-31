@@ -1,0 +1,6 @@
+<!ELEMENT personas (nombre, emails, parentesco)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT emails (#PCDATA)>
+<!ELEMENT parentesco (#PCDATA)>
+<!ATTLIST nombre carnet CDATA #REQUIRED>
+<!ATTLIST nombre edad CDATA #REQUIRED>

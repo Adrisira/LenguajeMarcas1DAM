@@ -1,0 +1,9 @@
+Enlaces 
+1 <a herf = "subdir/direct/textual.html"></a>
+2 <a herf = "llista.html"></a>
+3 <a herf = "../prova/prova.html"></a>
+4 <a herf = "../subdir/docu.html"></a>
+5 <a herf = "../../arrel.html"></a>
+6 <a herf = "../"></a>
+7 <a herf = "../../prova"></a>
+8 <a herf = "../../prova/prova.html"></a>

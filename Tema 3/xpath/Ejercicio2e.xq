@@ -1,0 +1,1 @@
+/contactos/persona/telefono[starts-with(.,'6')]

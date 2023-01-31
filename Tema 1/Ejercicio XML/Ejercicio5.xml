@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <eventos>
+        <evento1>Evento 1:
+            <señalaccidente>Señal de accidente</señalaccidente>
+            <puntokilometrico>Punto Kilómetrico 42,200</puntokilometrico>
+            <nombrevia>Nombre de la vía: A-49</nombrevia>
+            <sentido>Sentido: Huelva</sentido>
+            <cortevia>Corte de la vía: 1 carril</cortevia>
+            <fechahora>Fecha y hora del evento</fechahora>
+            <retencion>Retención: Sí</retencion>
+            <kilometroretencion>Kilómetros de retención: 8</kilometroretencion>
+        </evento1>
+        <evento2>Evento 2:
+            <señalretenccion>Señal de retención</señalretenccion>
+            <puntokilometrico>Punto kilométrico: 550</puntokilometrico>
+            <nombrevia>Nombre de la vía: A-4</nombrevia>
+            <sentido>Sevilla</sentido>
+            <fechahora>Fecha y hora del evento</fechahora>
+            <retencion>Retención: Sí</retencion>
+            <kilometroretencion>Kilómetros de retención: 3</kilometroretencion>
+        </evento2>
+    </eventos>

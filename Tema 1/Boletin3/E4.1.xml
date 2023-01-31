@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE  resultados SYSTEM "goles.dtd">
+
+<resultados>
+    <partido>
+    <equipolocal goles = "0">Nottingham Presa</equipolocal>
+    <equipovisitante goles = "1">Inter de Mitente</equipovisitante>
+    </partido>
+    <partido>
+        <equipolocal goles = "3">Vodka Juniors</equipolocal>
+        <equipovisitante goles = "3">Sparta da Risa</equipovisitante>
+    </partido>
+    <partido>
+        <equipolocal goles = "4">Water de Múnich</equipolocal>
+        <equipovisitante goles = "2">Esteaua es del grifo</equipovisitante>
+    </partido>
+</resultados>

@@ -1,0 +1,1 @@
+/contactos/persona[count(telefono) = 2]/nombre

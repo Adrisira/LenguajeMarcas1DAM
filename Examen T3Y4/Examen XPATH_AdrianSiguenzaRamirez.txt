@@ -1,0 +1,8 @@
+1a /franquicia/bebidas/bebida[count(tipobebida) >= 2]/nombre/string()
+1b /franquicia/trabajadores/trabajador[@dni = "98765432-W"]/nombre/string()
+1c 
+1d
+1e /franquicia/empresas/empresa[bebidas_solicitadas/bebida/nombre/string() = "B2"]/concat(nombre,"-->", cif)
+1f /franquicia/trabajadores/trabajador[not (exists(funcion))]/nombre/string()
+1g 
+1h /franquicia/empresas/empresa[starts-with(telefono, "(+34)")]/nombre/string()

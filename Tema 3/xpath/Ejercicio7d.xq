@@ -1,0 +1,1 @@
+ count(.//fichero | .//directorio)=0

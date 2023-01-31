@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="inmobiliaria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vivienda" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nregistro" type="tipoNREG"/>
+                            <xs:element name="direccion" >
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tipo" type="tipoDireccion"/>
+                                        <xs:element name="calle" type="xs:string"/>
+                                        <xs:element name="piso" type="xs:integer" minOccurs="0"/> 
+                                        <xs:element name="letra" type="tipoLetra" minOccurs="0"/> 
+                                        <xs:element name="ciudad" type="xs:string" minOccurs="0"/> 
+                                        <xs:element name="pais" type="xs:string" minOccurs="0"/> 
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="propietario" maxOccurs="unbounded">
+                             <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="apellido" type="xs:string"/>
+                                        <xs:element name="telefono" type="xs:string"/>
+                                        <xs:element name="email" minOccurs="0" type="tipoEmail"/>
+                                    </xs:sequence>
+                            </xs:complexType>
+                            </xs:element> 
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    
+    </xs:element>
+
+    <xs:simpleType name="tipoNREG">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{1,14}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoLetra">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z]{1,2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoDireccion">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="calle"></xs:enumeration> 
+            <xs:enumeration value="avenida"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>    
+
+    <xs:simpleType name="tipoEmail">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z\-_]{1,}@[a-z]{1,}\.[a-z]{3}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>    
+</xs:schema>

@@ -1,0 +1,1 @@
+/ies/ciclos/ciclo[@id = /ies/modulos/modulo[curso = '1']/ciclo]/grado/string()

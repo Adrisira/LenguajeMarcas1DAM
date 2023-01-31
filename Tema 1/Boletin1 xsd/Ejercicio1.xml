@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="Ejercicio1.xsd" 
+precio="12.8">
+    <Título>String</Título>
+    <Autores>String</Autores>
+    <Editorial>String</Editorial>
+</Libro>

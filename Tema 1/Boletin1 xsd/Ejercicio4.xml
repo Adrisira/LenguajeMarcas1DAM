@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="Ejercicio4.xsd"> 
+    <libro>
+        <titulo>Titutlo</titulo>
+        <autor>Autor</autor>
+        <fecha>2022-09-09</fecha>
+        <isbn>Id</isbn>
+    </libro>
+</libreria>

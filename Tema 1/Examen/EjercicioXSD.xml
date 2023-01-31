@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<franquicias xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="EjercicioXSD.xsd">
+    <franquicia>
+        <denominacion>bebidasur</denominacion>
+        <director>calletal</director>
+        <dni>12345678-f</dni>
+        <trabajadores>
+            <trabajador>
+                <nombre>pepi</nombre>
+                <funcion>camiones</funcion>
+                <fechaincorporacion>2022-09-09</fechaincorporacion>
+            </trabajador>
+        </trabajadores>
+        <bebida>
+            <nombre>aqua</nombre>
+            <tipobebida>sin azucar</tipobebida>
+        </bebida>
+        <empresa>
+            <cif>f99999999</cif>
+            <nombre>pepito</nombre>
+            <telefono>(+24)999999999</telefono>
+        </empresa>
+    </franquicia>
+</franquicias>

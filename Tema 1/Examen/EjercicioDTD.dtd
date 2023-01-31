@@ -1,0 +1,21 @@
+<!ELEMENT gimnasio (socios, actividades)>
+<!ELEMENT socios (socio+)>
+<!ELEMENT socio (dni, nombre, telefono?, email*, familiares*)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT familiares (nombre, dni)>
+<!ELEMENT actividades (actividad+)>
+<!ELEMENT actividad (horario, (pago | gratis))>
+<!ELEMENT horario (dia, horainicio, horafin)>
+<!ELEMENT pago EMPTY>
+<!ELEMENT gratis EMPTY>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT horainicio (#PCDATA)>
+<!ELEMENT horafin (#PCDATA)>
+
+<!ATTLIST socio id ID #REQUIRED socioreferido IDREF #IMPLIED>
+<!ATTLIST familiares relacion (hijo | pareja) #REQUIRED>
+<!ATTLIST familiares fechanacimiento CDATA #IMPLIED>
+<!ATTLIST actividad duracion CDATA #REQUIRED>

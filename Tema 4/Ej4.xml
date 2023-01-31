@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ej4.xsl"?>
+<universidad>
+    <alumnos>
+        <alumno>
+            <nombre>Pepe</nombre>
+            <apellido>Pinillos</apellido>
+            <pasaporte>28644345H</pasaporte>
+            <pais>Portugal</pais>
+            <fechanacimiento>
+                <dia>3</dia>
+                <mes>3</mes>
+                <anio>1998</anio>
+            </fechanacimiento>
+            <matriculado asignatura="F89" nota="NT" />
+            <nota1>6</nota1>
+            <nota2>7</nota2>
+        </alumno>
+    </alumnos>
+    <profesores>
+        <profesor despacho="A1" asignaturas='F89 A990'>
+            <nombre>Juan</nombre>
+            <apellido>González</apellido>
+            <DNI>23455556Z</DNI>
+            <fechanacimiento>
+                <dia>3</dia>
+                <mes>4</mes>
+                <anio>1998</anio>
+            </fechanacimiento>
+            <tutoria>
+                <inicio>16:30</inicio>
+                <fin>17:30</fin>
+            </tutoria>
+        </profesor>
+    </profesores>
+    <asignaturas>
+        <asignatura codigo="F89">
+            <titulo>LMA</titulo>
+            <carrera>ITIS</carrera>
+            <creditos>4,5</creditos>
+            <curso>OP</curso>
+        </asignatura>
+        <asignatura codigo="A990">
+            <titulo>FH</titulo>
+            <carrera>ITAS</carrera>
+            <creditos>3</creditos>
+            <curso>OB</curso>
+        </asignatura>
+    </asignaturas>
+</universidad>

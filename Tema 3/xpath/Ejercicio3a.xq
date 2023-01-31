@@ -1,0 +1,1 @@
+avg(/contactos/persona/fechanacimiento/(2004 - anio))

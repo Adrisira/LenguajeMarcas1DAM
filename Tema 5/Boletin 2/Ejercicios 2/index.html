@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicios con Formularios</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1 style="text-align: center;">HOJA DE INSCRIPCIÓN EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+            <div>
+                <form>
+                    <fieldset style="background-color: gray;">
+                        <legend style="border: 1px solid; background-color: white;">Datos Personales</legend>
+                        <table style="text-align: left;">
+                            <tr>
+                                <td><label>Nombre:</label></td>
+                                <td><label>Nombre:</label></td>
+                                <td><label>DNI</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" /></td>
+                                <td><input type="text" /></td>
+                                <td><input type="text" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Localidad de Nacimiento</label></td>
+                                <td><label>Provincia:</label></td>
+                                <td><label>Fecha de Nacimiento</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" /></td>
+                                <td><select>
+                                        <option>Huelva</option>
+                                        <option>Sevilla</option>
+                                        <option>Cadiz</option>
+                                    </select></td>
+                                <td><input type="date" /></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Dirección</td>
+                                <td>Código Postal</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="text" size="30" /></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset style="background-color: coral;">
+                        <legend style="border: 1px solid; background-color: white;">Forma de acceso</legend>
+                        <dl>
+                            <dt><input type="radio"> <label>Directo</label></dt>
+                            <dd><input type="radio" /> <label>Bachillerato Log Modalidad</label> <input type="text" /></dd>
+                            <dd><input type="radio"> <label>Experimental</label></dd>
+                            <dd><input type="radio" /> <label>COU Opción</label> <input type="text" /></dd>
+                            <dd><input type="radio"> <label>FP2</label></dd>
+                            <dd><input type="radio" /> <label>Otros (especifique)</label> <input type="text" /></dd>
+                            <dt><input type="radio"> <label>Prueba Libre</label></dt>
+                        </dl>
+                    </fieldset>
+                    <fieldset style="background-color: crimson;">
+                        <legend style="border: 1px solid; background-color: white;">Documentos Adjuntados</legend>
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" /><label>Fotocopia DNI</label></td>
+                                <td><input type="checkbox" /><label>Certificado Academico</label></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="checkbox" /><label>Otros Documentos (especifique)</label> <input type="text"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

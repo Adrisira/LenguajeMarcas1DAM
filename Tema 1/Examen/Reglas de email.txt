@@ -1,0 +1,2 @@
+cualquierminuscula, - , _, nveces, + @ + cualquier minuscula nveces + . + 3 letras minusculas.
+[\da-z-_]{1,}@[a-z]{1,}\.[a-z]{3}

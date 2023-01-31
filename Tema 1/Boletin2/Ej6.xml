@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "Ej6.dtd">
+
+<personas>
+    <nombre carnet = "1234" edad = "12">Pepe</nombre>
+    <emails>aaaa@gmail.com</emails>
+    <parentesco>Si</parentesco>
+</personas>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XXX [ 
+<!ELEMENT XXX (AAA+, BBB+)>
+<!ELEMENT AAA (CCC, DDD*)>
+<!ELEMENT BBB (CCC | DDD)>
+<!ELEMENT CCC (#PCDATA)>
+<!ELEMENT DDD (#PCDATA)>
+]>
+<XXX>
+    <AAA>
+        <CCC>Dato</CCC>
+        <DDD>Dato</DDD>
+    </AAA>
+    <BBB>
+        <CCC>Dato</CCC>
+    </BBB>
+</XXX>

@@ -1,0 +1,1 @@
+/universidad/asignaturas/asignatura[trimestre = '2']/nombre

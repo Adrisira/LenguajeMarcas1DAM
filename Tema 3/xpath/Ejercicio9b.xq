@@ -1,0 +1,1 @@
+/cine/peliculas/pelicula[actor/string() = "Anthony Perkins"]/titulo

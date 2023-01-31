@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="Libro">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Título" type="xsd:string" />
+                <xsd:element name="Autores" type="xsd:string" maxOccurs="10" />
+                <xsd:element name="Editorial" type="xsd:string" />
+            </xsd:sequence>
+            <xsd:attribute name="codigo" type="TipoCodigo" use="required" />
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="TipoCodigo">
+        <xsd:restriction base="xsd:string"> 
+            <xsd:pattern value="[capitulo]{8}\s[1-9][0-9]?" />
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

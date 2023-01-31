@@ -1,0 +1,1 @@
+/universidad/alumnos/alumno/nombre

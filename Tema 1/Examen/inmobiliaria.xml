@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inmobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="inmobiliaria.xsd">
+      <vivienda>
+            <nregistro>1112</nregistro>
+            <direccion>
+                  <tipo>calle</tipo>
+                  <calle>Las Góndolas</calle>
+                  <piso>1</piso>
+                  <letra>A</letra>
+                  <ciudad>Sevilla</ciudad>
+                  <pais>España</pais>                  
+            </direccion>
+            <propietario>
+                  <nombre>Jesús</nombre>
+                  <apellido>Navidad</apellido>
+                  <telefono>666666666</telefono>
+                  <email>jesus-navidad@gmail.com</email>
+            </propietario>
+            <propietario>
+                  <nombre>María</nombre>
+                  <apellido>Santos</apellido>
+                  <telefono>666666666</telefono>
+                  <email>maria_santos@hotmail.com</email>
+            </propietario>            
+      </vivienda>
+</inmobiliaria>     

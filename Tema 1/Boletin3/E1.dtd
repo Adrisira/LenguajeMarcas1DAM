@@ -1,0 +1,24 @@
+<!ELEMENT cd (songs)>
+<!ELEMENT songs (song)>
+<!ELEMENT song (title, composers, producers, publisher, artists,fecha)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT composers (composer)>
+<!ELEMENT composer (nombre*, apellidos*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT producers (producer)>
+<!ELEMENT producer (nombre*, apellidos*)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT artists (artist)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT fecha EMPTY>
+
+<!ATTLIST cd clasica CDATA #REQUIRED>
+<!ATTLIST cd popular CDATA #REQUIRED>
+<!ATTLIST songs id ID #REQUIRED>
+<!ATTLIST song length CDATA #REQUIRED>
+<!ATTLIST song anio CDATA #REQUIRED>
+<!ATTLIST composers id ID #REQUIRED canciones IDREF #IMPLIED>
+<!ATTLIST fecha dia CDATA #REQUIRED>
+<!ATTLIST fecha mes CDATA #REQUIRED>
+<!ATTLIST fecha anio CDATA #REQUIRED>

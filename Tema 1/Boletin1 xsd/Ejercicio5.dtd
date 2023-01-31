@@ -1,0 +1,9 @@
+<!ELEMENT Libro (Titulo, Autor+, Fecha, ISBN)>
+<!ATTLIST Libro
+Categoria (biografia | ensayo | ficcion) #REQUIRED
+Disponible (true | false) "false"
+Corrector CDATA "">
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Autor (#PCDATA)>
+<!ELEMENT Fecha (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>

@@ -1,0 +1,1 @@
+/contactos/persona/fechanacimiento[anio > 1970]/anio

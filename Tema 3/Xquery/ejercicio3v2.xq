@@ -1,0 +1,1 @@
+/bookstore/book[price<= 30]/title/string()

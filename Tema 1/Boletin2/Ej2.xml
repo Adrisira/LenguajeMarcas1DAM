@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XXX [ 
+<!ELEMENT XXX (AAA+, BBB+)>
+<!ELEMENT AAA (#PCDATA)>
+<!ELEMENT BBB (#PCDATA)>
+]>
+<XXX>
+    <AAA>
+        Adios
+    </AAA>
+    <BBB>
+        Hola
+    </BBB> 
+</XXX>

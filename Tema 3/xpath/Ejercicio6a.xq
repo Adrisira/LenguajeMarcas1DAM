@@ -1,0 +1,1 @@
+/ies/modulos/modulo[ciclo/string() = /ies/ciclos/ciclo[nombre = 'Sistemas Microinformáticos y Redes']/@id]/nombre/string()

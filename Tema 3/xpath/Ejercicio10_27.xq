@@ -1,0 +1,1 @@
+/universidad/alumnos/alumno[estudios/carrera/@codigo = /universidad/carreras/carrera[plan < 2002]/@id]/nombre

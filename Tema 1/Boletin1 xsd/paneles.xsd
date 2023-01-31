@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="paneles">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="evento" minOccurs="0" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="via">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="nombre">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                    <xsd:pattern value="/w{50}" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="ref">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                    <xsd:pattern value="[A-Z]{3}-[1-9]\d{1,3}" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="origen">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                    <xsd:pattern value="/w{50}" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="destino">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                    <xsd:pattern value="/w{50}" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="carrilescortados">
+                                            <xsd:complexType>
+                                                <xsd:attribute name="valor" use="required">
+                                                    <xsd:simpleType>
+                                                        <xsd:restriction base="xsd:int">
+                                                            <xsd:enumeration value="1"></xsd:enumeration>
+                                                            <xsd:enumeration value="2"></xsd:enumeration>
+                                                            <xsd:enumeration value="3"></xsd:enumeration>
+                                                            <xsd:enumeration value="4"></xsd:enumeration>
+                                                            <xsd:enumeration value="5"></xsd:enumeration>
+                                                            <xsd:enumeration value="6"></xsd:enumeration>
+                                                            <xsd:enumeration value="7"></xsd:enumeration>
+                                                            <xsd:enumeration value="8"></xsd:enumeration>
+                                                        </xsd:restriction>
+                                                    </xsd:simpleType>
+                                                </xsd:attribute>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="pk"></xsd:element>
+                            <xsd:element name="sentido">
+                                <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                    <xsd:pattern value="[-1|0|1]" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="tipo" use="required">
+                            <xsd:simpleType>
+                                <xsd:restriction base = "xsd:string">
+                                    <xsd:enumeration value="Accidente"/>
+                                    <xsd:enumeration value="Retencion"/>
+                                </xsd:restriction>
+                            </xsd:simpleType>
+                        </xsd:attribute>
+                        <xsd:attribute name="fecha" type="xsd:date"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

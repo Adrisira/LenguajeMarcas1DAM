@@ -1,0 +1,1 @@
+sum(.//fichero/@tamano)

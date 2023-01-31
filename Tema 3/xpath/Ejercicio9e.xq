@@ -1,0 +1,1 @@
+/cine/personas/persona[not (exists(fechas/@fallecimiento))]/nombre/string()

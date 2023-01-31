@@ -1,0 +1,1 @@
+/universidad/asignaturas/asignatura[not (creditos_teoricos = '4')]/nombre

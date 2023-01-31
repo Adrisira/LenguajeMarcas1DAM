@@ -1,0 +1,1 @@
+sum(/universidad/asignaturas/asignatura[@codigo=/universidad/alumnos/alumno/matriculado/@asignatura]/number(translate(creditos,',','.')))

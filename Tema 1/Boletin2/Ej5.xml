@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE helado SYSTEM "Eje5.dtd">
+<helado>
+    <fresa>1</fresa>
+    <tarrina>1</tarrina>
+</helado>

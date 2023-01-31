@@ -1,0 +1,1 @@
+/cine/personas/persona[nombre = /cine/peliculas/pelicula[titulo = 'Tres en un sofá']/actor]/fechas/@nacimiento

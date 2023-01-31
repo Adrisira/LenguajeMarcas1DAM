@@ -1,0 +1,1 @@
+/cine/personas/persona[fechas/@nacimiento > '1900'  and fechas/@fallecimiento < '2000']/nombre

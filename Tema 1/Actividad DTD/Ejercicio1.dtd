@@ -1,0 +1,21 @@
+<!ELEMENT videoclub (peliculas)>
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (nombre, sipnosis, director?, actores, guion, tiempo, genero)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT sipnosis (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actores (actor+)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT guion (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ELEMENT genero (accion | aventuras| ficcion)>
+<!ELEMENT accion EMPTY>
+<!ELEMENT aventuras EMPTY>
+<!ELEMENT ficcion EMPTY>
+
+
+<!ATTLIST pelicula id ID #REQUIRED>
+<!ATTLIST pelicula unidadesDisponibles CDATA #IMPLIED>
+<!ATTLIST pelicula color (si|no) #IMPLIED>
+<!ATTLIST actor tpapel (principal|secundario) #REQUIRED>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="helado">
+        <xsd:complexType>
+            <xsd:sequence>
+            <xsd:choice>
+                <xsd:element name="fesa" type="xsd:string"/>
+                <xsd:element name="chocolate" type="xsd:string"/>
+            </xsd:choice>
+            <xsd:choice>
+                <xsd:element name="cucurucho" type="xsd:string"/>
+                <xsd:element name="tarrina" type="xsd:string"/>
+            </xsd:choice>
+        </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

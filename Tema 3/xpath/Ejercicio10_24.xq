@@ -1,0 +1,1 @@
+/universidad/carreras/carrera[@id = /universidad/alumnos/alumno/estudios[asignaturas/asignatura/@codigo = /universidad/asignaturas/asignatura[nombre = 'Tecnología de los Alimentos']/@id]/carrera/@codigo]/nombre

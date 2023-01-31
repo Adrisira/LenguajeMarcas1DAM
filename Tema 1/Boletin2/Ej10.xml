@@ -1,0 +1,42 @@
+﻿<?xml version='1.0'?>
+<!DOCTYPE personas SYSTEM 'Ejercicio.dtd'>
+<personas>
+<persona sexo='varon' relacion='jefe'>
+<nombre>John</nombre>
+<apellidos>Smith</apellidos>
+        <nacimiento dia='21' mes='enero' anio='1969'/>
+        <direcciones>
+            <direccion tipo='profesional'>
+                <calle>AvdaUniversidad30</calle>
+                <poblacion>Leganes</poblacion>
+                <provincia>Madrid</provincia>
+                <cpostal>28905</cpostal>
+            </direccion>
+            <direccion tipo='personal'>
+                <calle>Madrid30</calle>
+                <poblacion>Getafe</poblacion>
+                <provincia>Madrid</provincia>
+                <cpostal>28901</cpostal>
+            </direccion>
+        </direcciones>
+    </persona>
+    <persona sexo='varon' relacion='familiar'>
+        <nombre>John</nombre>
+        <apellidos>Houston</apellidos>
+        <nacimiento dia='21' mes='enero' anio='1953'/>
+        <direcciones>
+            <direccion tipo='profesional'>
+                <calle>AvdaUniversidad10</calle>
+                <poblacion>Leganes</poblacion>
+                <provincia>Madrid</provincia>
+                <cpostal>28905</cpostal>
+            </direccion>
+            <direccion tipo='personal'>
+                <calle>Madrid20</calle>
+                <poblacion>Getafe</poblacion>
+                <provincia>Madrid</provincia>
+                <cpostal>28901</cpostal>
+            </direccion>
+        </direcciones>
+    </persona>
+</personas>

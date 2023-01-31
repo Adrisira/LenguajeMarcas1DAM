@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="franquicias">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="franquicia" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="denominacion" type="tipodenominacion" />
+                            <xs:element name="director" type="tipodenominacion" />
+                            <xs:element name="dni" type="tipodni" />
+                            <xs:element name="trabajadores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="trabajador">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre" type="tipodenominacion" />
+                                                    <xs:element name="funcion" type="tipofuncion" />
+                                                    <xs:element name="fechaincorporacion" type="xs:date" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="bebida">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="tipodenominacion" />
+                                        <xs:element name="tipobebida" type="tipotipobebida" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="empresa">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cif" type="tipocif" />
+                                        <xs:choice>
+                                            <xs:element name="nombre" minOccurs="0" type="xs:string" />
+                                            <xs:element name="razonsocial" minOccurs="0" type="xs:string" />
+                                            <!-- Me falta esta parte no sabia como hacerla-->
+                                        </xs:choice>
+                                        <xs:element name="telefono" type="tipotelefono" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="tipodenominacion">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\w{1,100}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tipodni">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{8}-[a-z]"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tipofuncion">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="camiones" />
+            <xs:enumeration value="embotellado" />
+            <xs:enumeration value="produccion" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tipotipobebida">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="energetica" />
+            <xs:enumeration value="sin azucar" />
+            <xs:enumeration value="sin cafeina" />
+            <xs:enumeration value="normal" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tipocif">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z]\d{8}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="tipotelefono">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\(\+\d{2}\)\d{9,12}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

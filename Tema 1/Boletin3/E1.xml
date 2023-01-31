@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<!DOCTYPE cd SYSTEM 'E1.dtd'>
+
+<cd clasica = "Si" popular = "No">
+    <songs id = "p2">
+        <song length="6:20" anio="1978">
+            <title>Hot Cop</title>
+            <composers id = "p1" canciones = "p2">
+                <composer>
+                    <nombre>Henry</nombre>
+                    <apellidos>Beolo</apellidos>
+                </composer>
+            </composers>
+            <producers>
+                <producer>
+                    <nombre>Jacques</nombre>
+                    <apellidos>Morali</apellidos>
+                </producer>
+            </producers>
+            <publisher>PolyGram</publisher>
+            <artists>
+                <artist>Village People</artist>
+            </artists>
+            <fecha dia = "1" mes = "agosto" anio = "1973"/>
+        </song>
+    </songs>
+</cd>

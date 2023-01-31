@@ -1,0 +1,1 @@
+/universidad/alumnos/alumno[estudios/asignaturas/asignatura/@codigo = 'a02']/nombre

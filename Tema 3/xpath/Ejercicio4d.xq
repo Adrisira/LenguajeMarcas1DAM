@@ -1,0 +1,1 @@
+/ies/modulos/modulo[horasSemanales/string() < '5']/nombre

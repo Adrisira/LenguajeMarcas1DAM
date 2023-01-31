@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrícula</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <form>
+                    <fieldset style="background-color: cadetblue;">
+                        <legend style="border: 1px solid black; background-color: white; color: red;">Preferencias</legend>
+                        <label>ASIGNATURA:</label>
+                        <br/>
+                        <input type="checkbox"/>
+                        <label>Geografia</label>
+                        <input type="checkbox"/>
+                        <label>Lengua</label>
+                        <input type="checkbox"/>
+                        <label>Matematicas</label>
+                        <input type="checkbox"/>
+                        <label>Historia</label>
+                        <br/>
+                        <label>Motivacióm:</label>
+                        <br/>
+                        <textarea rows="8" cols="56">Escriba aquín, por favor</textarea>
+                        <br/>
+                        <label>DNI:</label>
+                        <input type="text"/>
+                        <label>Nombre:</label>
+                        <input type="text"/>
+                        <label>Apellidos:</label>
+                        <input type="text"/>
+                        <label>Teléfono</label>
+                        <input type="text"/>
+                        <label>Email</label>
+                        <input type="text"/>
+                        <label>Edad</label>
+                        <input type="text"/>
+                        <br/>
+                        <label>Elija una fecha:</label>
+                        <input type="date"/>
+                        <br/>
+                        <label>Elija un color:</label>
+                        <input type="color"/>
+                        <br/>
+                        <label>Elija una hora:</label>
+                        <input type="time"/>
+                        <br/>
+                        <label>Indique el mes de comienzo:</label>
+                        <input type="month"/>
+                        <br/>
+                        <label>Velocidad:</label>
+                        <br/>
+                        <select>
+                            <optgroup label="Menor Velocidad">
+                                <option>1 Mbits</option>
+                                <option>10 Mbtis</option>
+                            </optgroup>
+                            <optgroup label="Mayor Velocidad">
+                                <option>100 Mbits</option>
+                                <option>1000 Mbits</option>
+                            </optgroup>
+                        </select>
+                        <br/>
+                        <label>Fichero:</label>
+                        <br/>
+                        <input type="file"/>
+                    </fieldset>
+                    <fieldset>
+                        <legend style="border: 1px solid black; background-color: white; color: red;">Lenguajes</legend>
+                        <input type="radio"/>
+                        <label>Python</label>
+                        <input type="radio"/>
+                        <label>Html</label>
+                        <input type="radio"/>
+                        <label>Visual Basic</label>
+                        <input type="radio"/>
+                        <label>Java</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend style="border: 1px solid black; background-color: white; color: rgb(0, 123, 255);">Completar con la siguiente información</legend>
+                        <label>HARDWARE</label>
+                        <dl>
+                            <dt><input type="radio"> <label>INTEL</label></dt>
+                            <dd><input type="radio" /> <label>i3</label> <input type="text" /></dd>
+                            <dd><input type="radio" /> <label>i5</label> <input type="text" /></dd>
+                            <dd><input type="radio" /> <label>i7</label> <input type="text" /></dd>
+                            <dt><input type="radio"> <label>AMD</label></dt>
+                            <dd><input type="radio" /> <label>Ryzen 3</label> <input type="text" /></dd>
+                            <dd><input type="radio" /> <label>Ryzen 5</label> <input type="text" /></dd>
+                            <dd><input type="radio" /> <label>Ryzen 7</label> <input type="text" /></dd>
+                        </dl>
+                        <table>
+                            <tr>
+                                <td colspan="2">Lenguajes</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>C#</td>
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td>C++</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>JavaScript</td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                                <td>SQL</td>
+                            </tr>
+                        </table>
+                        <label>Otro lenguaje:</label>
+                        <input type="text"/>
+                    </fieldset>
+                    <br/>
+                    <div style="text-align: center;">
+                        <input type="submit" value="Enviar"/>
+                        <br/><br/>
+                        <button type="reset">Restablecer</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

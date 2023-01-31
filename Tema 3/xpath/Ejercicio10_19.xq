@@ -1,0 +1,1 @@
+/universidad/carreras/carrera[@id = /universidad/alumnos/alumno/estudios/carrera/@codigo]/@id

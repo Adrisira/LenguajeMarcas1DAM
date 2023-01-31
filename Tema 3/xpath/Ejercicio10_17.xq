@@ -1,0 +1,1 @@
+/universidad/asignaturas/asignatura[@id = /universidad/alumnos/alumno[sexo = 'Mujer']/estudios/asignaturas/asignatura/@codigo]/@id

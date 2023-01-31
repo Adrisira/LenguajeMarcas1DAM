@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<!DOCTYPE persona SYSTEM 'persona.dtd'>
+<persona>
+<nombre>John Smith</nombre>
+<nacimiento dia='21' mes='enero' anio='1969'/>
+<direccion>
+<calle>Avda. Universidad, 30</calle>
+<poblacion>Leganes</poblacion>
+<provincia>Madrid</provincia>
+<cpostal>28905</cpostal>
+</direccion>
+<varon/>
+</persona>

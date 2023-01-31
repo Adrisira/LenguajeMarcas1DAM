@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<!DOCTYPE videoclub SYSTEM 'Ejercicio1.dtd'>
+
+<videoclub>
+    <peliculas>
+        <pelicula id="p1" unidadesDisponibles = "2" color = "si">
+            <nombre>Pepe</nombre>
+            <sipnosis>Julian</sipnosis>
+            <director>Pepe</director>
+            <actores>
+                <actor tpapel = "principal">Pepe</actor>
+            </actores>
+                <guion>papa</guion>
+                <tiempo>mes</tiempo>
+                <genero>
+                    <ficcion/>
+                </genero>
+        </pelicula>
+    </peliculas>
+</videoclub>

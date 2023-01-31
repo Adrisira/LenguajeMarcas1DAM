@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejemplo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="Ejercicio2.xsd">
+<tutoriales name ="string">
+    <tutorial name ="string"></tutorial>
+</tutoriales>
+</ejemplo>

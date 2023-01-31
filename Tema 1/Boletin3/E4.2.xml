@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE  resultados SYSTEM "atributo.dtd">
+
+<resultados>
+    <partido equipolocal = "Nottingham Presa" equipovisitante = "Inter de Mitente" goleslocal = "0" golesvisitante = "1"/>
+    <partido equipolocal = "Vodka Juniors" equipovisitante = "Sparta da Risa" goleslocal = "3" golesvisitante = "3"/>
+    <partido equipolocal = "Water de Múnich" equipovisitante = "Esteaua es del grifo" goleslocal = "4" golesvisitante = "2"/>
+</resultados>

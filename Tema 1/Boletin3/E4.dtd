@@ -1,0 +1,6 @@
+<!ELEMENT resultados (partido+)>
+<!ELEMENT partido (equipolocal, equipovisitante, goleslocal, golesvisitante)>
+<!ELEMENT equipolocal (#PCDATA)>
+<!ELEMENT equipovisitante (#PCDATA)>
+<!ELEMENT goleslocal (#PCDATA)>
+<!ELEMENT golesvisitante (#PCDATA)>

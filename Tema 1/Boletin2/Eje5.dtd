@@ -1,0 +1,5 @@
+<!ELEMENT helado ((fresa|chocolate), (cucurucho|tarrina))>
+<!ELEMENT fresa (#PCDATA)>
+<!ELEMENT chocolate (#PCDATA)>
+<!ELEMENT cucurucho (#PCDATA)>
+<!ELEMENT tarrina (#PCDATA)>

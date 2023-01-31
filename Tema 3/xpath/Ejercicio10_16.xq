@@ -1,0 +1,1 @@
+/universidad/alumnos/alumno[last()]/estudios/carrera/@codigo

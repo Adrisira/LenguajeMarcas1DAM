@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="EjercicioXSLTAdrianSiguenzaRamirez.xsl"?>
+
+<franquicia>
+    <denominacion>Bebidas Andalucía</denominacion>
+    <director>Antonio Bienvenida Portada</director>
+    <dni>12345678-F</dni>
+    <trabajadores>
+        <trabajador dni="98765432-W">
+            <nombre>José Delgado Guerra</nombre>
+            <funcion>Camiones</funcion>
+            <fechaincorporacion>2022-09-09</fechaincorporacion>
+        </trabajador>
+        <trabajador>
+            <nombre>Manuel García Cuesta</nombre>
+            <funcion>Embotellado</funcion>
+            <fechaincorporacion>2019-10-09</fechaincorporacion>
+        </trabajador>
+        <trabajador dni="22222222-F">
+            <nombre>Ignacio Sánchez Mejías</nombre>
+            <funcion>Embotellado</funcion>
+            <fechaincorporacion>2018-09-09</fechaincorporacion>
+        </trabajador>
+        <trabajador>
+            <nombre>Pascual Márquez Díaz</nombre>
+            <funcion>Producción</funcion>
+            <fechaincorporacion>2022-09-09</fechaincorporacion>
+        </trabajador>
+        <trabajador>
+            <nombre>Juan Belmonte García</nombre>
+            <fechaincorporacion>2022-09-09</fechaincorporacion>
+        </trabajador>
+    </trabajadores>
+    <bebidas>
+        <bebida id="B1">
+            <nombre>Bebida isotónica Star</nombre>
+            <tipobebida>Sin cafeína</tipobebida>
+        </bebida>
+        <bebida id="B2">
+            <nombre>Bebida isotónica Sun</nombre>
+            <tipobebida>Con cafeína</tipobebida>
+        </bebida>
+        <bebida id="B3">
+            <nombre>Fanta de Naranja</nombre>
+            <tipobebida>Sin azúcar</tipobebida>
+            <tipobebida>Sin cafeína</tipobebida>
+        </bebida>
+    </bebidas>
+    <empresas>
+        <empresa>
+            <cif>F12345678</cif>
+            <nombre>María Palillos</nombre>
+            <telefono>(+34)123456789</telefono>
+            <tipo>Bar</tipo>
+            <bebidas_solicitadas>
+                <bebida>
+                    <nombre>B1</nombre>
+                    <unidades>1000</unidades>
+                </bebida>
+                <bebida>
+                    <nombre>B3</nombre>
+                    <unidades>1500</unidades>
+                </bebida>
+            </bebidas_solicitadas>
+        </empresa>
+        <empresa>
+            <cif>B56789987</cif>
+            <nombre>Pepe Botella</nombre>
+            <telefono>(+34)123456789</telefono>
+            <tipo>Restaurante</tipo>
+            <bebidas_solicitadas>
+                <bebida>
+                    <nombre>B3</nombre>
+                    <unidades>1000</unidades>
+                </bebida>
+            </bebidas_solicitadas>
+        </empresa>
+        <empresa>
+            <cif>S34555666</cif>
+            <nombre>Sofía Bailonga</nombre>
+            <telefono>(+24)123456789</telefono>
+            <tipo>Cafetería</tipo>
+            <bebidas_solicitadas>
+                <bebida>
+                    <nombre>B2</nombre>
+                    <unidades>200</unidades>
+                </bebida>
+            </bebidas_solicitadas>
+        </empresa>
+        <empresa>
+            <cif>Y56777666</cif>
+            <nombre>Mar Salao</nombre>
+            <telefono>(+04)123456789</telefono>
+            <tipo>Centro de Ocio</tipo>
+            <bebidas_solicitadas>
+                <bebida>
+                    <nombre>B1</nombre>
+                    <unidades>1200</unidades>
+                </bebida>
+            </bebidas_solicitadas>
+        </empresa>
+    </empresas>
+</franquicia>

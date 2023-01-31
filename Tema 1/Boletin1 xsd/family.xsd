@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="persons">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="person" maxOccurs="3">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="full_name" type="xsd:string"/>
+                            <xsd:element name="child_name" minOccurs="0" maxOccurs="4" type="xsd:string"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

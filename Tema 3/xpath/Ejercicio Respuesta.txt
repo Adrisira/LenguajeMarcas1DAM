@@ -1,0 +1,12 @@
+Ejercicio 1
+a) Nombre de la persona
+/persona/nombre
+b) Año de nacimiento
+c) Lista de teléfonos
+
+Ejercicio 10
+Nombre de los alumnos matriculados en carreras que no tienen subdirector
+
+Nombre de los alumnos matriculados en asignaturas con 0 créditos prácticos y que estudien la carrera de I.T. Informática
+
+Nombre de los alumnos que estudian carreras cuyos planes son anteriores a 2002

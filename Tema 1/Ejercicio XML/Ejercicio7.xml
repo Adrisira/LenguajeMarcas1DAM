@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <prestamoinfo>
+        <libro>
+            <codigoisbn></codigoisbn>
+            <nombre></nombre>
+            <editorial></editorial>
+            <añopublicacion></añopublicacion>
+            <autor></autor>
+        </libro>
+        <ejemplar>
+            <ejemplarlibro></ejemplarlibro>
+            <socio></socio>
+            <fechaprestamo></fechaprestamo>
+        </ejemplar>
+        <socio>
+            <dni></dni>
+            <nombre></nombre>
+            <direccion></direccion>
+        </socio>
+    </prestamoinfo>
