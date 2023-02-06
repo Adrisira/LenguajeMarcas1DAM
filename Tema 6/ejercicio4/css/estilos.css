@@ -1,0 +1,27 @@
+/* Añade los bordes a la tabla*/
+
+
+/* Utilizando únicamente pseudoselectores da color de fondo verde a las casillas que contien horas. Pista :first-child */
+
+/* Utilizando únicamente pseudoselectores da color de fondo amarillo a la celda de recreo. Pista :nth-child */
+
+
+/* Cambiar los estado de los enlaces para que:
+
+ Nunca estén subrayados
+ Si están visitados se muestren en rojo
+ Si no están visitado se muestren en verde */
+
+
+/* Utilizando pseudoselectores hacer que cuando pasemos el ratón sobre la columna del viernes
+aumente el tamaño de letra al doble. Pista: last-child y :hover*/
+
+
+/* Utilizando Pseudoelementos Haz que la primera letra de los días tenga el doble de tamaño*/
+
+
+/* Añade un borde rojo que esté separado 5 px en los campos obligatorios */
+
+
+/* Añade un * en rojo detrás de las etiquetas de tipo label */
+

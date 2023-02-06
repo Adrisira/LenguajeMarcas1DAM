@@ -1,0 +1,94 @@
+/* Hay poner el selector delante de cada declaración para que afecte a los elementos que indica
+			el comentario que cada declarción tiene encima*/
+			
+/* Todos los elementos de la página */
+{ 
+		font-family: "Open Sans", Arial, sans-serif;
+		font-size: 1em;
+		line-height: 1.6;
+		color: #494949;
+}
+
+/* Primer h1 que depende de body */
+{
+	font-family: "Verdana", Arial, sans-serif;
+	font-size: 3em;
+}	
+	 
+/* Todos los párrafos de la página */
+{ 
+	color: #666; 
+}
+			
+/* Todos los elementos h1 de la página */
+{ 
+		font-weight: bold;
+		font-size: 1.5em;
+}
+				 
+/* Todos los párrafos de clase "texto"*/
+{ 
+		font-weight: bold;
+		font-size: 1.7em;
+}			 
+			 
+/* Todos los párrafos que estén dentro de div con id "noticia-principal" */
+{ 
+		color: green;
+		padding: 1em;
+}
+			 
+/* Todos los span que esten dentro de párrafos*/
+{ 
+	background: yellowgreen;				
+}
+
+/* Todos los span que tengan un atributo id*/
+{
+	background: black;
+	color: white;
+}
+
+/* Todos los span que sean hijos justo a continuación de h1*/
+ {
+	text-decoration: line-through;	
+}
+			 
+/* Todos los elementos con id "noticia-principal" o con id "noticia-secundaria" */
+{ 
+	background: pink; 
+	border: 1px solid black; 
+	padding: 2em; 
+	border-radius: 10px;
+}
+			
+/* Todos los enlaces que estén dentro de párrafos con clase "texto" */
+{ 
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+}
+
+/* Todos los h2 que estén al mismo nivel que h1 pero sólo aquellos justo después de body, esto es, aquellos h2 con contenido "Zona 1", "Zona 1.1", "Zona 2", "Zona 2.1" */
+{
+	background: magenta;
+	color: white;
+}
+
+/*El h2 con contenido "Zona 1"*/
+{
+  font-size: 2em;
+}
+
+/* Todos los h2 cuyo title tenga la palabra "motivo" */
+{
+	text-decoration:underline;
+}
+
+/* Todos los textos de la página HTML que informen sobre el número de años determinado */
+{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+  background: green;
+}
