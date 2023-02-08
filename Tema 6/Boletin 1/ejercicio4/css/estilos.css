@@ -1,9 +1,18 @@
 /* Añade los bordes a la tabla*/
-
+table, thead, tbody, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
 
 /* Utilizando únicamente pseudoselectores da color de fondo verde a las casillas que contien horas. Pista :first-child */
+td:first-child {
+    background-color: green;
+}
 
 /* Utilizando únicamente pseudoselectores da color de fondo amarillo a la celda de recreo. Pista :nth-child */
+tr:nth-child(3) th:nth-child(2){
+    background-color: yellow;
+}
 
 
 /* Cambiar los estado de los enlaces para que:
@@ -12,7 +21,14 @@
  Si están visitados se muestren en rojo
  Si no están visitado se muestren en verde */
 
-
+a:visited {
+    color: red;
+    text-decoration:none;
+}
+a:link {
+    color: green;
+    text-decoration:none;
+}
 /* Utilizando pseudoselectores hacer que cuando pasemos el ratón sobre la columna del viernes
 aumente el tamaño de letra al doble. Pista: last-child y :hover*/
 
