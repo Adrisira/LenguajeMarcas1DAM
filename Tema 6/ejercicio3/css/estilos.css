@@ -2,7 +2,7 @@
 			el comentario que cada declarción tiene encima*/
 			
 /* Todos los elementos de la página */
-{ 
+* { 
 		font-family: "Open Sans", Arial, sans-serif;
 		font-size: 1em;
 		line-height: 1.6;
@@ -10,83 +10,83 @@
 }
 
 /* Primer h1 que depende de body */
-{
+body + h1{
 	font-family: "Verdana", Arial, sans-serif;
 	font-size: 3em;
 }	
 	 
 /* Todos los párrafos de la página */
-{ 
+p { 
 	color: #666; 
 }
 			
 /* Todos los elementos h1 de la página */
-{ 
+h1 { 
 		font-weight: bold;
 		font-size: 1.5em;
 }
 				 
 /* Todos los párrafos de clase "texto"*/
-{ 
+.texto { 
 		font-weight: bold;
 		font-size: 1.7em;
 }			 
 			 
 /* Todos los párrafos que estén dentro de div con id "noticia-principal" */
-{ 
+#noticia-principal p{ 
 		color: green;
 		padding: 1em;
 }
 			 
 /* Todos los span que esten dentro de párrafos*/
-{ 
+p span{ 
 	background: yellowgreen;				
 }
 
 /* Todos los span que tengan un atributo id*/
-{
+#ref, #ref1{
 	background: black;
 	color: white;
 }
 
 /* Todos los span que sean hijos justo a continuación de h1*/
- {
+h1 > span{
 	text-decoration: line-through;	
 }
 			 
 /* Todos los elementos con id "noticia-principal" o con id "noticia-secundaria" */
-{ 
-	background: pink; 
+#noticia-principal, #noticia-secundaria{ 
+	background-color: pink; 
 	border: 1px solid black; 
 	padding: 2em; 
 	border-radius: 10px;
 }
-			
+
 /* Todos los enlaces que estén dentro de párrafos con clase "texto" */
-{ 
+p.texto a{ 
 	text-decoration: none;
 	color: orange;
 	font-weight: bold;
 }
 
 /* Todos los h2 que estén al mismo nivel que h1 pero sólo aquellos justo después de body, esto es, aquellos h2 con contenido "Zona 1", "Zona 1.1", "Zona 2", "Zona 2.1" */
-{
+body > h2{
 	background: magenta;
 	color: white;
 }
 
 /*El h2 con contenido "Zona 1"*/
-{
+h1 + h2{
   font-size: 2em;
 }
 
 /* Todos los h2 cuyo title tenga la palabra "motivo" */
-{
+h2[title*="motivo"]{
 	text-decoration:underline;
 }
 
 /* Todos los textos de la página HTML que informen sobre el número de años determinado */
-{
+.anyo{
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px;
