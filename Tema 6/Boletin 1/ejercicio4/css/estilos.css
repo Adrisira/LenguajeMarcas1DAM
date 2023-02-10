@@ -10,7 +10,7 @@ td:first-child {
 }
 
 /* Utilizando únicamente pseudoselectores da color de fondo amarillo a la celda de recreo. Pista :nth-child */
-tr:nth-child(3) th:nth-child(2){
+tr:nth-child(3) td:nth-child(2){
     background-color: yellow;
 }
 
@@ -31,13 +31,21 @@ a:link {
 }
 /* Utilizando pseudoselectores hacer que cuando pasemos el ratón sobre la columna del viernes
 aumente el tamaño de letra al doble. Pista: last-child y :hover*/
-
+th:last-child:hover {
+    font-size: 200%;
+}
 
 /* Utilizando Pseudoelementos Haz que la primera letra de los días tenga el doble de tamaño*/
-
+th:first-letter {
+    font-size: 200%;
+}
 
 /* Añade un borde rojo que esté separado 5 px en los campos obligatorios */
-
+input:required{
+    border: 5px red;
+}
 
 /* Añade un * en rojo detrás de las etiquetas de tipo label */
-
+label:after{
+    content: "*";
+}
