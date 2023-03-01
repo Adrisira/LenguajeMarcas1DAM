@@ -1,0 +1,74 @@
+/*r1*/
+h2::first-letter {
+    font-size: 200%;
+}
+
+/*r2*/
+h2 + p{
+    text-indent: 2em;
+}
+
+
+/*r3*/
+a::before {
+    content: "=>";
+}
+
+/*Preguntar porque no funciona*/
+abbr::after {
+    content: '(' attr(title) ')';
+}
+
+
+/*r5*/
+.info:hover {
+    font-size: 2em;
+}
+
+
+/*r6*/
+a:link {
+    color: red;
+}
+
+
+/*r7*/
+a:visited {
+    color: green;
+}
+
+/*r8*/
+a:hover{
+    color: blue;
+}
+
+/*r9*/
+a:active{
+    color: pink;
+}
+
+/*r10*/
+ul li:first-child{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*r11*/
+#descripcion li:nth-child(2){
+    text-decoration: line-through red;
+}
+/*r12*/
+ul #datos {
+    list-style-type: square;
+}
+
+/*r13*/
+input:focus{
+    background-color: yellow;
+}
+
+/*r14*/
+#profesor:checked, #estudiante:checked{
+    height: 25px;
+    width: 25px;
+}
